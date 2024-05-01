@@ -89,66 +89,63 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tensorflow/tfjs-backend-cpu@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-3.21.0.tgz#ee0274bf14627d08b81c4e229230da66dc9c3d92"
-  integrity sha512-88S21UAdzyK0CsLUrH17GPTD+26E85OP9CqmLZslaWjWUmBkeTQ5Zqyp6iK+gELnLxPx6q7JsNEeFuPv4254lQ==
+"@tensorflow/tfjs-backend-cpu@4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-cpu/-/tfjs-backend-cpu-4.19.0.tgz#95484116d01fe802b597ca2f12351ace0f15b25a"
+  integrity sha512-7pT05Ea6GTXjbqRgkmayZRYvaiNl3LLk1TyfUvC8iIqMw5d7p4Wgte2pfM2gMbIZ/opOxURhFYuI0FiQvUrW6g==
   dependencies:
     "@types/seedrandom" "^2.4.28"
     seedrandom "^3.0.5"
 
-"@tensorflow/tfjs-backend-webgl@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-webgl/-/tfjs-backend-webgl-3.21.0.tgz#357d70c2fbd741e1d026b0788cbf5bc7c651cca3"
-  integrity sha512-N4zitIAT9IX8B8oe489qM3f3VcESxGZIZvHmVP8varOQakTvTX859aaPo1s8hK1qCy4BjSGbweooZe4U8D4kTQ==
+"@tensorflow/tfjs-backend-webgl@4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-backend-webgl/-/tfjs-backend-webgl-4.19.0.tgz#9a732b99da64f861ce8bbe75e4b5aaa466aafedd"
+  integrity sha512-R0DC1W65lqTOccCwxMhH+VOKCgSrhd9GEejIIGhjeXt6oZlACFnOx4SuUr/qKLCDsL5I4E9iFLxAJMmsfYvARw==
   dependencies:
-    "@tensorflow/tfjs-backend-cpu" "3.21.0"
+    "@tensorflow/tfjs-backend-cpu" "4.19.0"
     "@types/offscreencanvas" "~2019.3.0"
     "@types/seedrandom" "^2.4.28"
-    "@types/webgl-ext" "0.0.30"
-    "@types/webgl2" "0.0.6"
     seedrandom "^3.0.5"
 
-"@tensorflow/tfjs-converter@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-converter/-/tfjs-converter-3.21.0.tgz#a5872aa8b949dc01315fb7f7fea2df91a1f15799"
-  integrity sha512-12Y4zVDq3yW+wSjSDpSv4HnpL2sDZrNiGSg8XNiDE4HQBdjdA+a+Q3sZF/8NV9y2yoBhL5L7V4mMLDdbZBd9/Q==
+"@tensorflow/tfjs-converter@4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-converter/-/tfjs-converter-4.19.0.tgz#77fa13f2f06180570390380981e3c5aa9235637a"
+  integrity sha512-xIOE6enaVHPYCXKpHxJnUlN8hzlcQkgFSymHjBmdDnNCresuRwBGz4dqYAQMeQG21Ei3lxCQFdDDH7aSvUEAPw==
 
-"@tensorflow/tfjs-core@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-3.21.0.tgz#379c3698afc8f66bc82f77c7e35c35910daf7e3b"
-  integrity sha512-YSfsswOqWfd+M4bXIhT3hwtAb+IV8+ODwIxwdFR/7jTAPZP1wMVnSlpKnXHAN64HFOiP+Tm3HmKusEZ0+09A0w==
+"@tensorflow/tfjs-core@4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-4.19.0.tgz#90cadaeb3e4646e378f840ee6a86ce5a19a6f81c"
+  integrity sha512-GZ0d53PG0HGQCC7hbWv1qDnZctHYe/cafHZrBY5eNeQjQE6fBr3NsR5GfLadT0TELwmX9/nyritGDzvy6xmzHQ==
   dependencies:
     "@types/long" "^4.0.1"
-    "@types/offscreencanvas" "~2019.3.0"
+    "@types/offscreencanvas" "~2019.7.0"
     "@types/seedrandom" "^2.4.28"
-    "@types/webgl-ext" "0.0.30"
-    "@webgpu/types" "0.1.16"
+    "@webgpu/types" "0.1.38"
     long "4.0.0"
     node-fetch "~2.6.1"
     seedrandom "^3.0.5"
 
-"@tensorflow/tfjs-data@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-3.21.0.tgz#56cf012f5a4b08e8ff1a42ace72f97925a2aef9d"
-  integrity sha512-eFLfw2wIcFNxnP2Iv/SnVlihehzKMumk1b5Prcx1ixk/SbkCo5u0Lt7OVOWaEOKVqvB2sT+dJcTjAh6lrCC/QA==
+"@tensorflow/tfjs-data@4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-4.19.0.tgz#c88abc26782d16604f58e3e65cdd00386ab1c853"
+  integrity sha512-n0ZgJp5UhhBatohUt9pXSCCApusK+1Flyk6yDrQYuxOTjhRppd6jYrF7LCDG3hMFi3QLGl0jab1zYrn9BwtC/w==
   dependencies:
     "@types/node-fetch" "^2.1.2"
     node-fetch "~2.6.1"
     string_decoder "^1.3.0"
 
-"@tensorflow/tfjs-layers@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-layers/-/tfjs-layers-3.21.0.tgz#7fff00662e86f132bcab67f079c8653c3b1580e7"
-  integrity sha512-CMVXsraakXgnXEnqD9QbtResA7nvV7Jz20pGmjFIodcQkClgmFFhdCG5N+zlVRHEz7VKG2OyfhltZ0dBq/OAhA==
+"@tensorflow/tfjs-layers@4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-layers/-/tfjs-layers-4.19.0.tgz#73b5a3f5580807d5d56188d9b6ad4658d810fefa"
+  integrity sha512-NufvuRaZdIyoG+R13d7oL8G5Bywox+ihPMiMZ3tWU+me8C8Y0pVC69mrnhOS9R8an7GDxKKSTTNEZhUvPvMGiQ==
 
-"@tensorflow/tfjs-node@^3.20.0":
-  version "3.21.1"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-node/-/tfjs-node-3.21.1.tgz#922f3af163403ccbd55791dfc5e25cfe770a4e15"
-  integrity sha512-WV77fiuux6E5RR7FRD8RL3yCruhoHjZMI9yybztGLItJwco2YVjHr6h4TOjaZcIMnxu9748iV118MN2ZeLXbdQ==
+"@tensorflow/tfjs-node@^4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-node/-/tfjs-node-4.19.0.tgz#a922db9cd8284cee8eb7655e539dab12c32c272c"
+  integrity sha512-1HLIAuu5azP8SW7t5EZc1W5VOdjWndJYz1N1agz0It/tMtnuWIdAfcY08VjfuiI/NhAwuPShehqv6CZ3SYh+Vg==
   dependencies:
     "@mapbox/node-pre-gyp" "1.0.9"
-    "@tensorflow/tfjs" "3.21.0"
+    "@tensorflow/tfjs" "4.19.0"
     adm-zip "^0.5.2"
     google-protobuf "^3.9.2"
     https-proxy-agent "^2.2.1"
@@ -156,20 +153,20 @@
     rimraf "^2.6.2"
     tar "^4.4.6"
 
-"@tensorflow/tfjs@3.21.0":
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs/-/tfjs-3.21.0.tgz#18abd201239178cb23ddd85a33f87af8eeacfc7f"
-  integrity sha512-khcARd3/872llL/oF4ouR40qlT71mylU66PGT8kHP/GJ5YKj44sv8lDRjU7lOVlJK7jsJFWEsNVHI3eMc/GWNQ==
+"@tensorflow/tfjs@4.19.0":
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs/-/tfjs-4.19.0.tgz#b7c2e7911d89770d2432428328e0db8922501f5f"
+  integrity sha512-d2A1lTc6my7GJ5LwqzXa+igJ5+18exwsnaphZ3roi5nJ197uwxVSMIc2vSJnqZz1KajC5/mZgQr67EZrpTFlBg==
   dependencies:
-    "@tensorflow/tfjs-backend-cpu" "3.21.0"
-    "@tensorflow/tfjs-backend-webgl" "3.21.0"
-    "@tensorflow/tfjs-converter" "3.21.0"
-    "@tensorflow/tfjs-core" "3.21.0"
-    "@tensorflow/tfjs-data" "3.21.0"
-    "@tensorflow/tfjs-layers" "3.21.0"
+    "@tensorflow/tfjs-backend-cpu" "4.19.0"
+    "@tensorflow/tfjs-backend-webgl" "4.19.0"
+    "@tensorflow/tfjs-converter" "4.19.0"
+    "@tensorflow/tfjs-core" "4.19.0"
+    "@tensorflow/tfjs-data" "4.19.0"
+    "@tensorflow/tfjs-layers" "4.19.0"
     argparse "^1.0.10"
     chalk "^4.1.0"
-    core-js "3"
+    core-js "3.29.1"
     regenerator-runtime "^0.13.5"
     yargs "^16.0.3"
 
@@ -249,6 +246,11 @@
   resolved "https://registry.yarnpkg.com/@types/offscreencanvas/-/offscreencanvas-2019.3.0.tgz#3336428ec7e9180cf4566dfea5da04eb586a6553"
   integrity sha512-esIJx9bQg+QYF0ra8GnvfianIY8qWB0GBx54PK5Eps6m+xTj86KLavHv6qDhzKcu5UUOgNfJ2pWaIIV7TRUd9Q==
 
+"@types/offscreencanvas@~2019.7.0":
+  version "2019.7.3"
+  resolved "https://registry.yarnpkg.com/@types/offscreencanvas/-/offscreencanvas-2019.7.3.tgz#90267db13f64d6e9ccb5ae3eac92786a7c77a516"
+  integrity sha512-ieXiYmgSRXUDeOntE1InxjWyvEelZGP63M+cGuquuRLuIKKT1osnkXjxev9B7d1nXSug5vpunx+gNlbVxMlC9A==
+
 "@types/qs@*":
   version "6.9.7"
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
@@ -276,16 +278,6 @@
   dependencies:
     "@types/mime" "*"
     "@types/node" "*"
-
-"@types/webgl-ext@0.0.30":
-  version "0.0.30"
-  resolved "https://registry.yarnpkg.com/@types/webgl-ext/-/webgl-ext-0.0.30.tgz#0ce498c16a41a23d15289e0b844d945b25f0fb9d"
-  integrity sha512-LKVgNmBxN0BbljJrVUwkxwRYqzsAEPcZOe6S2T6ZaBDIrFp0qu4FNlpc5sM1tGbXUYFgdVQIoeLk1Y1UoblyEg==
-
-"@types/webgl2@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@types/webgl2/-/webgl2-0.0.6.tgz#1ea2db791362bd8521548d664dbd3c5311cdf4b6"
-  integrity sha512-50GQhDVTq/herLMiqSQkdtRu+d5q/cWHn4VvKJtrj4DJAjo1MNkWYa2MA41BaBO1q1HgsUjuQvEOk0QHvlnAaQ==
 
 "@typescript-eslint/eslint-plugin@^5.62.0":
   version "5.62.0"
@@ -371,10 +363,10 @@
     "@typescript-eslint/types" "5.62.0"
     eslint-visitor-keys "^3.3.0"
 
-"@webgpu/types@0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@webgpu/types/-/types-0.1.16.tgz#1f05497b95b7c013facf7035c8e21784645f5cc4"
-  integrity sha512-9E61voMP4+Rze02jlTXud++Htpjyyk8vw5Hyw9FGRrmhHQg2GqbuOfwf5Klrb8vTxc2XWI3EfO7RUHMpxTj26A==
+"@webgpu/types@0.1.38":
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/@webgpu/types/-/types-0.1.38.tgz#6fda4b410edc753d3213c648320ebcf319669020"
+  integrity sha512-7LrhVKz2PRh+DD7+S+PVaFd5HxaWQvoMqBbsV9fNJO1pjUs1P8bM2vQVNfk+3URTqbuTI7gkXi0rfsN0IadoBA==
 
 abbrev@1:
   version "1.1.1"
@@ -654,7 +646,7 @@ cookie@0.6.0:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.6.0.tgz#2798b04b071b0ecbff0dbb62a505a8efa4e19051"
   integrity sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==
 
-core-js@3:
+core-js@3.29.1:
   version "3.29.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.29.1.tgz#40ff3b41588b091aaed19ca1aa5cb111803fa9a6"
   integrity sha512-+jwgnhg6cQxKYIIjGtAHq2nwUOolo9eoFZ4sHfUH09BLXBgxnH4gA0zEd+t+BO2cNB8idaBtZFcFTRjQJRJmAw==
